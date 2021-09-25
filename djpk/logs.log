@@ -1,0 +1,118 @@
+2021-05-06 14:11:00,760:INFO:Initializing predict_model()
+2021-05-06 14:11:00,760:INFO:predict_model(estimator=LogisticRegression(max_iter=1000, random_state=4688), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-05-06 14:11:00,761:INFO:Checking exceptions
+2021-05-06 14:11:00,761:INFO:Preloading libraries
+2021-05-06 14:11:00,761:ERROR:Pipeline not found. Exception:
+2021-05-06 14:11:00,826:ERROR:Traceback (most recent call last):
+  File "C:\Program Files\Python39\lib\site-packages\pycaret\internal\tabular.py", line 8377, in predict_model
+    dtypes = prep_pipe.named_steps["dtypes"]
+NameError: name 'prep_pipe' is not defined
+
+2021-05-06 14:33:04,910:INFO:Initializing predict_model()
+2021-05-06 14:33:04,911:INFO:predict_model(estimator=LogisticRegression(max_iter=1000, random_state=4688), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-05-06 14:33:04,911:INFO:Checking exceptions
+2021-05-06 14:33:04,911:INFO:Preloading libraries
+2021-05-06 14:33:04,911:ERROR:Pipeline not found. Exception:
+2021-05-06 14:33:04,915:ERROR:Traceback (most recent call last):
+  File "C:\Program Files\Python39\lib\site-packages\pycaret\internal\tabular.py", line 8377, in predict_model
+    dtypes = prep_pipe.named_steps["dtypes"]
+NameError: name 'prep_pipe' is not defined
+
+2021-05-06 14:34:23,636:INFO:Initializing load_model()
+2021-05-06 14:34:23,636:INFO:load_model(model_name=C:/Users/asus/Downloads/RYAN/model_realisasi.pkl, platform=None, authentication=None, verbose=True)
+2021-05-06 14:34:43,487:INFO:Initializing load_model()
+2021-05-06 14:34:43,487:INFO:load_model(model_name=C:/Users/asus/Downloads/RYAN/model_realisasi, platform=None, authentication=None, verbose=True)
+2021-05-06 14:35:08,538:INFO:Initializing predict_model()
+2021-05-06 14:35:08,538:INFO:predict_model(estimator=LogisticRegression(max_iter=1000, random_state=4688), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-05-06 14:35:08,538:INFO:Checking exceptions
+2021-05-06 14:35:08,538:INFO:Preloading libraries
+2021-05-06 14:35:08,539:ERROR:Pipeline not found. Exception:
+2021-05-06 14:35:08,542:ERROR:Traceback (most recent call last):
+  File "C:\Program Files\Python39\lib\site-packages\pycaret\internal\tabular.py", line 8377, in predict_model
+    dtypes = prep_pipe.named_steps["dtypes"]
+NameError: name 'prep_pipe' is not defined
+
+2021-05-06 14:38:03,350:INFO:Initializing load_model()
+2021-05-06 14:38:03,350:INFO:load_model(model_name=C:/Users/asus/Downloads/RYAN/model_realisasi, platform=None, authentication=None, verbose=True)
+2021-05-06 14:39:11,590:INFO:Initializing load_model()
+2021-05-06 14:39:11,590:INFO:load_model(model_name=C:/Users/asus/Downloads/RYAN/model_realisasi, platform=None, authentication=None, verbose=True)
+2021-05-06 14:39:37,197:INFO:Initializing predict_model()
+2021-05-06 14:39:37,198:INFO:predict_model(estimator=LogisticRegression(max_iter=1000, random_state=4688), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-05-06 14:39:37,198:INFO:Checking exceptions
+2021-05-06 14:39:37,198:INFO:Preloading libraries
+2021-05-06 14:39:37,204:ERROR:Pipeline not found. Exception:
+2021-05-06 14:39:37,258:ERROR:Traceback (most recent call last):
+  File "C:\Program Files\Python39\lib\site-packages\pycaret\internal\tabular.py", line 8377, in predict_model
+    dtypes = prep_pipe.named_steps["dtypes"]
+NameError: name 'prep_pipe' is not defined
+
+2021-05-06 15:10:02,013:INFO:Initializing predict_model()
+2021-05-06 15:10:02,014:INFO:predict_model(estimator=LogisticRegression(max_iter=1000, random_state=4688), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-05-06 15:10:02,014:INFO:Checking exceptions
+2021-05-06 15:10:02,015:INFO:Preloading libraries
+2021-05-06 15:10:02,015:ERROR:Pipeline not found. Exception:
+2021-05-06 15:10:02,019:ERROR:Traceback (most recent call last):
+  File "C:\Program Files\Python39\lib\site-packages\pycaret\internal\tabular.py", line 8377, in predict_model
+    dtypes = prep_pipe.named_steps["dtypes"]
+NameError: name 'prep_pipe' is not defined
+
+2021-05-06 15:16:23,097:INFO:Initializing predict_model()
+2021-05-06 15:16:23,098:INFO:predict_model(estimator=LogisticRegression(max_iter=1000, random_state=4688), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-05-06 15:16:23,098:INFO:Checking exceptions
+2021-05-06 15:16:23,098:INFO:Preloading libraries
+2021-05-06 15:16:23,099:ERROR:Pipeline not found. Exception:
+2021-05-06 15:16:23,103:ERROR:Traceback (most recent call last):
+  File "C:\Program Files\Python39\lib\site-packages\pycaret\internal\tabular.py", line 8377, in predict_model
+    dtypes = prep_pipe.named_steps["dtypes"]
+NameError: name 'prep_pipe' is not defined
+
+2021-05-06 16:08:12,585:INFO:Initializing predict_model()
+2021-05-06 16:08:12,585:INFO:predict_model(estimator=LogisticRegression(max_iter=1000, random_state=4688), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-05-06 16:08:12,586:INFO:Checking exceptions
+2021-05-06 16:08:12,586:INFO:Preloading libraries
+2021-05-06 16:08:12,586:ERROR:Pipeline not found. Exception:
+2021-05-06 16:08:12,619:ERROR:Traceback (most recent call last):
+  File "C:\Program Files\Python39\lib\site-packages\pycaret\internal\tabular.py", line 8377, in predict_model
+    dtypes = prep_pipe.named_steps["dtypes"]
+NameError: name 'prep_pipe' is not defined
+
+2021-05-06 16:20:35,034:INFO:Initializing predict_model()
+2021-05-06 16:20:35,037:INFO:predict_model(estimator=LogisticRegression(max_iter=1000, random_state=4688), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-05-06 16:20:35,037:INFO:Checking exceptions
+2021-05-06 16:20:35,038:INFO:Preloading libraries
+2021-05-06 16:20:35,038:ERROR:Pipeline not found. Exception:
+2021-05-06 16:20:35,042:ERROR:Traceback (most recent call last):
+  File "C:\Program Files\Python39\lib\site-packages\pycaret\internal\tabular.py", line 8377, in predict_model
+    dtypes = prep_pipe.named_steps["dtypes"]
+NameError: name 'prep_pipe' is not defined
+
+2021-05-06 20:30:06,240:INFO:Initializing predict_model()
+2021-05-06 20:30:06,241:INFO:predict_model(estimator=LogisticRegression(max_iter=1000, random_state=4688), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-05-06 20:30:06,241:INFO:Checking exceptions
+2021-05-06 20:30:06,241:INFO:Preloading libraries
+2021-05-06 20:30:06,242:ERROR:Pipeline not found. Exception:
+2021-05-06 20:30:06,248:ERROR:Traceback (most recent call last):
+  File "C:\Users\asus\AppData\Roaming\Python\Python39\site-packages\pycaret\internal\tabular.py", line 8377, in predict_model
+    dtypes = prep_pipe.named_steps["dtypes"]
+NameError: name 'prep_pipe' is not defined
+
+2021-05-07 05:01:29,181:INFO:Initializing predict_model()
+2021-05-07 05:01:29,229:INFO:predict_model(estimator=ExtraTreesClassifier(n_jobs=-1, random_state=4688), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-05-07 05:01:29,229:INFO:Checking exceptions
+2021-05-07 05:01:29,229:INFO:Preloading libraries
+2021-05-07 05:01:29,229:ERROR:Pipeline not found. Exception:
+2021-05-07 05:01:29,493:ERROR:Traceback (most recent call last):
+  File "C:\Users\asus\AppData\Roaming\Python\Python39\site-packages\pycaret\internal\tabular.py", line 8377, in predict_model
+    dtypes = prep_pipe.named_steps["dtypes"]
+NameError: name 'prep_pipe' is not defined
+
+2021-05-07 05:03:02,979:INFO:Initializing predict_model()
+2021-05-07 05:03:02,980:INFO:predict_model(estimator=ExtraTreesClassifier(n_jobs=-1, random_state=4688), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-05-07 05:03:02,980:INFO:Checking exceptions
+2021-05-07 05:03:02,980:INFO:Preloading libraries
+2021-05-07 05:03:02,980:ERROR:Pipeline not found. Exception:
+2021-05-07 05:03:02,984:ERROR:Traceback (most recent call last):
+  File "C:\Users\asus\AppData\Roaming\Python\Python39\site-packages\pycaret\internal\tabular.py", line 8377, in predict_model
+    dtypes = prep_pipe.named_steps["dtypes"]
+NameError: name 'prep_pipe' is not defined
+

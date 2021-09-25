@@ -1,0 +1,71 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-color: whitesmoke;
+    border-radius: 20px 20px 20px 20px;
+    opacity: 85%;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 white;
+}
+
+.tab {
+    padding: 2px 50px;
+    text-align: left;
+    display: none;
+}
+
+form{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+li{
+    padding: 15px 20px 20px 15px;
+}
+
+input{
+    width: 100%;
+}
+
+button{
+    float: right;
+    padding: 10px 20px 10px 20px;
+    margin: 20px; 
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.tab h1{
+    text-align: center;
+}
+
+  body{
+      font-family: 'Quicksand', sans-serif;
+      background-image: url("/static/styles/img/03102018104024214563-3600x2384-Batik-in-the-making.jpg");
+      background-size: cover;
+  }
+
+  #Kemiskinan{
+      height: 20px;
+      margin-top: 10px;
+  }

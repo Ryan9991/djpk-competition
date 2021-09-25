@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+    <title>Document</title>
+</head>
+
+<body style="background-image: url(/static/styles/img/03102018104024214563-3600x2384-Batik-in-the-making.jpg); background-size: cover; font-size: 'Quicksand', sans-serif;">
+    <form id="regForm" action="{{ url_for('prediksi') }}" method="post">
+        <div class="card" style="background-color: whitesmoke;
+        border-radius: 20px 20px 20px 20px;
+        opacity: 85%;">
+            <div class="tab">
+                <h1>Fungsi Ekonomi</h1>
+                <ul>
+                    <li>
+                        <label for="Kemiskinan">Garis Kemiskinan (Rupiah/Kapita/Bulan): </label><br>
+                        <input type="number" placeholder="Misal 300000, 320000" id="Kemiskinan" name="1"
+                            placeholder="Misal 300000, 320000">
+                    </li>
+                    <li>
+                        <label for="Kemiskinan">Indeks Kedalaman Kemiskinan: </label><br>
+                        <input type="number" placeholder="Misal 0.3, 0.4" id="Kemiskinan" name="2">
+                    </li>
+                    <li>
+                        <label for="Kemiskinan">Indeks Keparahan Kemiskinan: </label><br>
+                        <input type="number" placeholder="Misal 0.3, 0.4" id="Kemiskinan" name="3">
+                    </li>
+                    <li>
+                        <label for="Kemiskinan">Jumlah Penduduk Miskin (Ribu Orang): </label><br>
+                        <input type="number" placeholder="Misal 18.1, 20" id="Kemiskinan" name="4">
+                    </li>
+                    <li>
+                        <label for="Kemiskinan">Presentase Penduduk Miskin (%): </label><br>
+                        <input type="number" placeholder="Misal 10, 20" id="Kemiskinan" name="5">
+                    </li>
+                </ul>
+            </div>
+            <div class="tab">
+                <h1 style="text-align: center;">Fungsi Perlindungan Sosial</h1>
+                <ul>
+                    <li>
+                        <label for="Kemiskinan">Indeks Pembangunan Manusia: </label><br>
+                        <input type="number" placeholder="Misal 60, 70.2" id="Kemiskinan" name="6">
+                    </li>
+                </ul>
+            </div>
+            <div class="tab">
+                <h1 style="text-align: center;">Fungsi Pelayanan Umum</h1>
+                <ul>
+                    <li>
+                        <label for="Kemiskinan">Persentase Anak Berumur 0 s.d. 17 Tahun yang Memiliki Akta Kelahiran
+                            (%): </label><br>
+                        <input type="number" placeholder="Misal 10, 20" id="Kemiskinan" name="7">
+                    </li>
+                </ul>
+            </div>
+            <div class="tab">
+                <h1 style="text-align: center;">Fungsi Kesehatan</h1>
+                <ul>
+                    <li>
+                        <label for="Kemiskinan">Presentase Balita yang Pernah Mendapatkan Imunisasi Campak (%):
+                        </label><br>
+                        <input type="number" placeholder="Misal 10, 20" id="Kemiskinan" name="8">
+                    </li>
+                    <li>
+                        <label for="Kemiskinan">Persentase Bayi Usia Kurang Dari 6 Bulan yang Mendapatkan ASI Eksklusif
+                            (%): </label><br>
+                        <input type="number" placeholder="Misal 10, 20" id="Kemiskinan" name="9">
+                    </li>
+                    <li>
+                        <label for="Kemiskinan">Persentase Merokok Pada Penduduk Umur Lebih Dari 15 Tahun (%):
+                        </label><br>
+                        <input type="number" placeholder="Misal 10, 20" id="Kemiskinan" name="10">
+                    </li>
+                    <li>
+                        <label for="Kemiskinan">Persentase Penduduk yang Mempunyai Keluhan Kesehatan Selama Sebulan
+                            Terakhir (%): </label><br>
+                        <input type="number" placeholder="Misal 10, 20" id="Kemiskinan" name="11">
+                    </li>
+                </ul>
+            </div>
+            <div class="tab">
+                <h1 style="text-align: center;">Fungsi Ketertiban dan Keamanan</h1>
+                <ul>
+                    <li>
+                        <label for="Kemiskinan">Jumlah Tindak Pidana Menurut Kepolisian Daerah: </label><br>
+                        <input type="number" placeholder="Misal 700, 3000" id="Kemiskinan" name="12">
+                    </li>
+                </ul>
+            </div>
+            <div class="tab">
+                <h1 style="text-align: center;">Fungsi Lingkungan Hidup</h1>
+                <ul>
+                    <li>
+                        <label for="Kemiskinan">Luas Tanaman Perkebunan (Ribu Hektar): </label><br>
+                        <input type="number" placeholder="Misal 10, 20" id="Kemiskinan" name="13">
+                    </li>
+                </ul>
+            </div>
+            <div class="tab">
+                <h1 style="text-align: center;">Fungsi Pariwisata dan Budaya</h1>
+                <ul>
+                    <li>
+                        <label for="Kemiskinan">Rata - Rata Lama Menginap Tamu Pada Hotel (Hari): </label><br>
+                        <input type="number" placeholder="Misal 10, 20" id="Kemiskinan" name="14">
+                    </li>
+                    <li>
+                        <label for="Kemiskinan">Tingkat Hunian Kamar Berbintang (%): </label><br>
+                        <input type="number" placeholder="Misal 10, 20" id="Kemiskinan" name="15">
+                    </li>
+                </ul>
+            </div>
+            <div class="tab">
+                <h1 style="text-align: center;">Fungsi Pendidikan</h1>
+                <ul>
+                    <li>
+                        <label for="Kemiskinan">Angka Melek Huruf Penduduk Umur 15 s.d. 59 Tahun (%): </label><br>
+                        <input type="number" placeholder="Misal 10, 20" id="Kemiskinan" name="16">
+                    </li>
+                    <li>
+                        <label for="Kemiskinan">Angka Partisipasi Kasar Perguruan Tinggi (%): </label><br>
+                        <input type="number" placeholder="Misal 10, 20" id="Kemiskinan" name="17">
+                    </li>
+                    <li>
+                        <label for="Kemiskinan">Angka Partisipasi Murni Sekolah Level Menengah Atas (%): </label><br>
+                        <input type="number" placeholder="Misal 10, 20" id="Kemiskinan" name="18">
+                    </li>
+                    <li>
+                        <label for="Kemiskinan">Proporsi Remaja dan Dewasa Usia 15 s.d. 24 Tahun dengan Keterampilan TIK
+                            (%): </label><br>
+                        <input type="number" placeholder="Misal 10, 20" id="Kemiskinan" name="19">
+                    </li>
+                    <li>
+                        <label for="Kemiskinan">Rata - Rata Lama Sekolah Penduduk Umur Lebih Dari 15 Tahun (Tahun):
+                        </label><br>
+                        <input type="number" placeholder="Misal 10, 20" id="Kemiskinan" name="20">
+                    </li>
+                </ul>
+            </div>
+            <div class="tab">
+                <h1 style="text-align: center;">Fungsi Perumahan dan Fasilitas Umum</h1>
+                <ul>
+                    <li>
+                        <label for="Kemiskinan">Presentase Rumah Tangga dengan Sumber Penerangan Listrik PLN (%):
+                        </label><br>
+                        <input type="number" placeholder="Misal 10, 20" id="Kemiskinan" name="21">
+                    </li>
+                    <li>
+                        <label for="Kemiskinan">Persentase Rumah Tangga Menurut Provinsi, Tipe Daerah, dan Sanitasi
+                            Layak (%): </label><br>
+                        <input type="number" placeholder="Misal 10, 20" id="Kemiskinan" name="22">
+                    </li>
+                    <li>
+                        <label for="Kemiskinan">Persentase Rumah Tangga yang Memiliki Akses Hunian yang Layak dan
+                            Terjangkau (%): </label><br>
+                        <input type="number" placeholder="Misal 10, 20" id="Kemiskinan" name="23">
+                    </li>
+                </ul>
+            </div>
+            <div class="tab">
+                <h1 style="text-align: center;">Lain - lain</h1>
+                <ul>
+                    <li>
+                        <label for="Kemiskinan">Anggaran: </label><br>
+                        <input type="number" placeholder="Misal 150000000, 200000000" id="Kemiskinan" name="24">
+                    </li>
+                    <li>
+                        <label for="Kemiskinan">Kategori Mandatory Spending: </label><br>
+                        <input type="number" placeholder="Misal 1, 2, 3" id="Kemiskinan" name="25">
+                    </li>
+                </ul>
+            </div>
+            <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+            <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+
+        </div>
+    </form>
+</body>
+<script type="text/javascript" src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</html>
